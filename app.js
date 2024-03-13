@@ -27,7 +27,7 @@ btnGenerate.addEventListener("click", function () {
     }
 
     else if (csAge == "over-65") {
-        ticketCost = ticketCost - (ticketCost * 0, 4)
+        ticketCost = ticketCost - (ticketCost * 0.4)
     }
     
     ticketCost = ticketCost.toFixed(2);
